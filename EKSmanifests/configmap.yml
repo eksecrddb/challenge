@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: api-config
+data:
+  DYNAMODB_REGION: eu-west-2
+  DYNAMODB_TABLE: movies
