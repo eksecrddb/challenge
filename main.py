@@ -12,8 +12,8 @@ daxurl='daxs://ratest.ls3ias.dax-clusters.eu-west-2.amazonaws.com'
 dax = amazondax.AmazonDaxClient.resource(endpoint_url=daxurl)
 table = dax.Table(ddbtable)
 
-#ddb = boto3.resource('dynamodb', region_name='eu-west-2')
-#ddbtable = 'movies'
+ddb = boto3.resource('dynamodb', region_name='eu-west-2')
+ddbtable = 'movies'
 #table = ddb.Table(ddbtable)
 
 
